@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "bakerie";
+  src: local("bakerie"), url(./fonts/Bakerie-Rough-Bold.otf) format("truetype");
+}
